@@ -8,7 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       
-      <Text>{count}</Text>
+      <Text style={styles.styleText} >{count}</Text>
 
       <View style={styles.ButtonOK}>
         <Button
@@ -53,6 +53,10 @@ const styles = StyleSheet.create({
   ButtonRS: {
     marginHorizontal: 20,
     marginTop: 10
+  },
+  styleText: {
+    fontSize: 90,
+    fontWeight: 'bold'
   }
 
 });
